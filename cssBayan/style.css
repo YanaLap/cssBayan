@@ -1,0 +1,67 @@
+html {
+   font-size: 22px;
+   font-weight: 900;
+}
+
+body {
+   margin: 5% 10% 0 10%;
+}
+
+.name-public {
+   font-size: 2rem;
+
+}
+
+.mem-one,
+.mem-two,
+.mem-three,
+.mem-four {
+   width: 30%;
+
+}
+
+.container-mem {
+
+   display: flex;
+   justify-content: center;
+}
+.container{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.checkbox{
+   display: none;
+}
+.photo-icon{
+   background-image: url('img/sun-regular.svg');
+   width: 0.8rem;
+   height: 0.8rem;
+   display: flex;
+
+}
+label{
+   cursor: pointer;
+}
+
+
+/* @media(max-width: 1920px) {
+   html {}
+
+} */
+
+@media(max-width: 820px) {
+   html {
+      font-size: 14px;
+      font-weight: 600;
+   }
+
+}
+
+@media(max-width: 320px) {
+   html {
+      font-size: 10px;
+      font-weight: 600;
+   }
+
+}
