@@ -71,7 +71,9 @@ label img {
 input:checked+label img {
    height: 15rem;
 
-
+}
+input:hover+label img {
+   height: 15rem;
 }
 
 input:checked+label .photo-icon {
