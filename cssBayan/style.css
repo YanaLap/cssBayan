@@ -68,7 +68,7 @@ input:checked+label img {
    height: 15rem;
 }
 
-input:hover+label img {
+label:hover img {
    height: 15rem;
 }
 
@@ -76,6 +76,14 @@ input:checked+label .photo-icon {
    background-image: url('img/x-solid.svg');
    width: 0.45rem;
    height: 0.6rem;
+}
+
+label:hover .photo-icon {
+   background-image: url('img/x-solid.svg');
+}
+
+label:active{
+  color: blue; 
 }
 
 input:checked+label>.container {
